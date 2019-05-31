@@ -76,8 +76,11 @@
         </div>        
 
         <div class="form-group col-lg-4 col-lg-offset-4">
-          <button type="submit" name="submit" class="btn btn-default " style="border-radius: 25px; width: 120px;">SAVE</button>
-          <button type="cancel" name="cancel" class="btn btn-default " style="border-radius: 25px; width: 120px; margin-left: 30%;"><a href="logout.php" style="color: black;">CANCEL</a></button>
+          <p style="font-weight: bold;" align="right">Already a user ! <a href="login.php"><b style="color: white;">SIGN IN</b></a></p>
+        </div>        
+
+        <div class="form-group col-lg-4 col-lg-offset-4">
+          <center><button type="submit" name="submit" class="btn btn-default " style="border-radius: 25px; width: 120px;">SAVE</button></center>
         </div>
       </form>
     </table>
