@@ -1,6 +1,6 @@
 <?php
   //create connection
-  $con = mysqli_connect('localhost','root','','task');
+  $con = mysqli_connect('localhost','root','','task_signup');
   if (isset($_POST['submit']))
   {
   
