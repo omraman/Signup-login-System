@@ -40,7 +40,7 @@ if (isset($_SESSION['uid'])) {
   <h3 align="center" style="color: white;"><b>WELCOME TO HOMEPAGE</b></h3><br><br>
 
 <?php
-  $con = mysqli_connect('localhost','root','','task');
+  $con = mysqli_connect('localhost','root','','task_signup');
 $qry = "SELECT * FROM `register` WHERE `mail`='$stor'";
 $run = mysqli_query($con,$qry);
 if($fetch = mysqli_fetch_assoc($run))
@@ -81,7 +81,7 @@ if($fetch = mysqli_fetch_assoc($run))
             </div>
           </div>
           <div class="col-md-6">
-            <img src="image/<?php echo $fetch['image'];?>" height="180" width="180" style="border-radius: 50%;" "class="img-responsive" img-circle">
+            <img src="image/<?php echo $fetch['image'];?>" height="180" width="180" style="border-radius: 50%;" class="img-responsive img-circle">
           </div>
         </div>
       </div>
